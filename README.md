@@ -170,6 +170,22 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/iter/ops/divide`][@stdlib/math/iter/ops/divide]: create an iterator which performs element-wise division of two or more iterators.
+-   [`@stdlib/math/iter/ops/multiply`][@stdlib/math/iter/ops/multiply]: create an iterator which performs element-wise multiplication of two or more iterators.
+-   [`@stdlib/math/iter/ops/subtract`][@stdlib/math/iter/ops/subtract]: create an iterator which performs element-wise subtraction of two or more iterators.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -228,6 +244,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-iter-ops-add/main/LICENSE
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/math/iter/ops/divide]: https://github.com/stdlib-js/math-iter-ops-divide
+
+[@stdlib/math/iter/ops/multiply]: https://github.com/stdlib-js/math-iter-ops-multiply
+
+[@stdlib/math/iter/ops/subtract]: https://github.com/stdlib-js/math-iter-ops-subtract
+
+<!-- </related-links> -->
 
 </section>
 

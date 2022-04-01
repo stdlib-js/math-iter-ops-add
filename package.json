@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/math-iter-ops-add",
+  "version": "0.0.0",
+  "description": "Create an iterator which performs element-wise addition of two or more iterators.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-iter-ops-add.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "math",
+    "mathematics",
+    "arithmetic",
+    "add",
+    "addition",
+    "sum",
+    "summation",
+    "iterator",
+    "iterable",
+    "iterate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}

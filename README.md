@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@esm/index.mjs';
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@v0.1.1-esm/index.mjs';
 ```
 
 #### iterAdd( iter0, ...iterator )
@@ -136,7 +136,7 @@ var bool = it.next().done;
 <script type="module">
 
 import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@esm/index.mjs';
-import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@esm/index.mjs';
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@v0.1.1-esm/index.mjs';
 
 // Create an iterator which generates a sine wave:
 var sine1 = iterSineWave({

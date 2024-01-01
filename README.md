@@ -45,30 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-iter-ops-add
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterAdd = require( '@stdlib/math-iter-ops-add' );
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@deno/mod.js';
 ```
 
 #### iterAdd( iter0, ...iterator )
@@ -76,7 +60,7 @@ var iterAdd = require( '@stdlib/math-iter-ops-add' );
 Returns an [iterator][mdn-iterator-protocol] which performs element-wise addition of two or more [iterators][mdn-iterator-protocol].
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
 
 var it1 = array2iterator( [ 1.0, 2.0 ] );
 var it2 = array2iterator( [ 3.0, 4.0 ] );
@@ -102,7 +86,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 If provided a numeric value as an [`iterator`][mdn-iterator-protocol] argument, the value is broadcast as an **infinite** [iterator][mdn-iterator-protocol] which **always** returns the provided value.
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@deno/mod.js';
 
 var arr = array2iterator( [ 1.0, 2.0 ] );
 
@@ -146,8 +130,8 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var iterSineWave = require( '@stdlib/simulate-iter-sine-wave' );
-var iterAdd = require( '@stdlib/math-iter-ops-add' );
+import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@deno/mod.js';
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@deno/mod.js';
 
 // Create an iterator which generates a sine wave:
 var sine1 = iterSineWave({
@@ -214,7 +198,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -278,11 +262,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/iter/ops/divide]: https://github.com/stdlib-js/math-iter-ops-divide
+[@stdlib/math/iter/ops/divide]: https://github.com/stdlib-js/math-iter-ops-divide/tree/deno
 
-[@stdlib/math/iter/ops/multiply]: https://github.com/stdlib-js/math-iter-ops-multiply
+[@stdlib/math/iter/ops/multiply]: https://github.com/stdlib-js/math-iter-ops-multiply/tree/deno
 
-[@stdlib/math/iter/ops/subtract]: https://github.com/stdlib-js/math-iter-ops-subtract
+[@stdlib/math/iter/ops/subtract]: https://github.com/stdlib-js/math-iter-ops-subtract/tree/deno
 
 <!-- </related-links> -->
 

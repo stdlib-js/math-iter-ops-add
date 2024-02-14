@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-ops-add/tags). For example,
+
+```javascript
 import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@v0.2.0-deno/mod.js';
 ```
 
@@ -131,7 +136,7 @@ var bool = it.next().done;
 
 ```javascript
 import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@deno/mod.js';
-import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@v0.2.0-deno/mod.js';
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@deno/mod.js';
 
 // Create an iterator which generates a sine wave:
 var sine1 = iterSineWave({

@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-ops-add/tags). For example,
+
+```javascript
 import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@v0.2.3-esm/index.mjs';
 ```
 
@@ -136,7 +141,7 @@ var bool = it.next().done;
 <script type="module">
 
 import iterSineWave from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-sine-wave@esm/index.mjs';
-import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@v0.2.3-esm/index.mjs';
+import iterAdd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-add@esm/index.mjs';
 
 // Create an iterator which generates a sine wave:
 var sine1 = iterSineWave({
